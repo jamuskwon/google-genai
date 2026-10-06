@@ -14,7 +14,8 @@ dynamic = ["version"]
 
 # Dependencies required by this custom app
 dependencies = [
-    "google-genai"
+    "google-genai",
+    "sqlglot"
 ]
 
 [project.urls]
