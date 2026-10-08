@@ -12,10 +12,9 @@ requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
 
-# Dependencies required by this custom app
+# ONLY require google-genai
 dependencies = [
-    "google-genai",
-    "sqlglot<20"
+    "google-genai"
 ]
 
 [project.urls]
